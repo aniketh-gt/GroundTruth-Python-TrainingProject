@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[68]:
-
-
 import random
 
 def pass_gen(pass_dict):
@@ -51,12 +45,3 @@ def pass_gen(pass_dict):
 
         return password
     return "Condition Mismatch"
-
-print(pass_gen({'default_auto_password': True, 'length_of_password': 16, 'length_of_lowercase': 4, 'length_of_uppercase': 4, 'length_of_number': 4, 'length_of_special_character': 4}))
-
-
-# In[ ]:
-
-
-
-
